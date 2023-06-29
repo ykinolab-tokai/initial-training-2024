@@ -17,11 +17,15 @@
    ```
    `<user_name>` の部分は各自のGitHubユーザー名に置き換えてください
 3. 新しいブランチを作る
-   ブランチ名は `<your_name>/<章>` としてください．
+   ブランチ名は `<your_name>/chapter<章番号>` としてください．
    `<your_name>`の部分は，`First nameのイニシャル + Last name`をすべて小文字で書いてください．
    例：木下が 1 章のコードを追加するとき → `ykinoshita/chapter01`
    ```
    $ git branch <your_name>/chapter<XX>
+   ```
+4. ブランチを作成しただけでは，作業対象のブランチが切り替わりません．作業対象のブランチを作成した`<your_name>/chapter<章番号>`に切り替えるには以下のコマンドを入力します．
+   ```
+   $ git checkout <your_name>/chapter<章番号>
    ```
 4. 自分用のディレクトリを作る
    ```
