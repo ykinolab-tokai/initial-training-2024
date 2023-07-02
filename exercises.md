@@ -16,6 +16,8 @@ Windowsの場合にはWSL2上のUbuntuを用いることを推奨．
 
 # 第3章: NumPyと数学の基本
 
+# 第4章: Matplotlib
+
 # 第4章: 微積分の基礎
 
 # 第5章: 複素数
