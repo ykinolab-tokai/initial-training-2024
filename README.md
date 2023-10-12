@@ -61,3 +61,9 @@
 - **他の人のディレクトリを変更しないでください．**
   - 他の人のコードを閲覧したい場合は、Web サイト上から閲覧してください．
 - フォルダ名，ファイル名を間違えると進捗グラフに反映されません．
+
+## 謝辞
+以下を大変参考にさせていただきました．
+- [都立大小野研究室のチュートリアル](https://github.com/onolab-tmu/asp-tutorial-2023)
+- [Chainer Tutorial](https://tutorials.chainer.org/ja/tutorial.html)
+- 田中，信号・データ処理のための行列とベクトル
