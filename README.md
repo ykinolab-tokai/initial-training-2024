@@ -9,6 +9,9 @@
 
 ## 使い方
 
+** はじめての人はまず[第1章のテキスト](https://github.com/ykinolab-tokai/initial-training/blob/main/text/01_Basic_Operations.ipynb) を開き，読み進めてください **
+第1章のテキストを読み，手順に従って操作していけば**以下の手順は不要**です．
+
 1. このレポジトリを fork する
 2. fork したレポジトリをホームディレクトリなどに clone する
    ```
