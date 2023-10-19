@@ -1,0 +1,1 @@
+PWD stands for present working directoy,which means "the directoy you are currently working in".To be more precise,it is "a command to display the current directory as an absolute path".

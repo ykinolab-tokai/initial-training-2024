@@ -1,0 +1,1 @@
+An absolute path is a method that describes all the way to the desired file,while a relative path describes the location relative to the current file location.
