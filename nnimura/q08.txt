@@ -1,0 +1,3 @@
+　catコマンドはファイル内のデータ表示やファイルの連結を行うものである。catはconcatenateの略である。
+　cat fileと入力するとfile内のデータを表示する。
+　cat file1.1 file1.2 >file1と入力するとfile1.1とfile1.2を連結したfile1というファイルを作成する。
