@@ -1,2 +1,4 @@
-a = 1
-print(a)
+def double(x):
+    print(2 * x)
+
+double(3)
