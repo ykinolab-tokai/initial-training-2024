@@ -1,0 +1,5 @@
+ホームディレクトリとは、個人用のディレクトリであり、作成したディレクトリを管理している。
+
+参考Webサイト
+・THE SIMPLE,"ホームディレクトリ(homedirectory)とは？コンピュータ利用者の基本概念をわかりやすく解説",https://the-simple.jp/what-is-a-home-directory-easy-to-understand-explanations-of-basic-computer-user-concepts,(閲覧日：2023/10/25)
+・IT用語辞典 e-Words,"ホームディレクトリ【home directory】",https://e-words.jp/w/ホームディレクトリ.html,(閲覧日：2023/10/25)

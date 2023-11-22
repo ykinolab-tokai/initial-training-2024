@@ -1,0 +1,5 @@
+catコマンドは、ファイルの中を見るためのコマンドである。また、ファイルをつなげることもできる。
+
+参考Webサイト
+・GMO CLOUD アカデミー,"catコマンドとは？Linuxコマンドでファイルの中身を確認する方法をご紹介",https://academy.gmocloud.com/lesson/20191111/8091,(閲覧日：2023/10/25)
+・エンジニアの入り口,"【Linuxコマンド集】3分でわかるcatコマンドの使い方",https://eng-entrance.com/linux_command_cat,(閲覧日：2023/10/25)
