@@ -1,15 +1,7 @@
-a = [4,8,3,4,1]
-res = len(a)
-print(res)
+import numpy as np
 
-res = max(a)
-print(res)
+array = np.array([1, 2, 3, 4, 5])
 
-res = min(a)
-print(res)
-
-res = sum(a)
-print(res)
-
-res = sorted(a)
-print(res)
+print("NumPy：", array)
+print("dtype:", array.dtype)
+print("shape:", array.shape)

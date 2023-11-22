@@ -1,27 +1,7 @@
-type(1.2 + 3.8)
-print(type(1.2 + 3.8))
+import numpy as np
 
-type(10 // 100)
-print(type(10 // 100))
+array = np.array([-6, -3, 0, 3, 6, 9])
 
-type(1 >= 0)
-print(type(1 >= 0))
-
-type('Hello World' == 'Hello World')
-print(type('Hello World' == 'Hello World'))
-
-type(not'Chainer' != 'Tutorial')
-print(type(not'Chainer' != 'Tutorial'))
-
-type(all([True,True,False]))
-print(type(all([True,True,False])))
-
-type(any([True,True,False]))
-print(type(any([True,True,False])))
-
-type(abs(-3))
-print(type(abs(-3)))
-
-type(2 // 0)
-print(type(2 // 0))
-
+print("NumPy：", array)
+print("dtype:", array.dtype)
+print("shape:", array.shape)

@@ -1,5 +1,9 @@
-f関数は1　2　3
+import numpy as np
+import matplotlib.pyplot as plt
 
-ｇ関数は１　２　３　１と思います。
-
-g関数は１の要素を追加したので、ｆ関数は変わらない。　
+x=np.linspace(-2,2,100)
+y1=2**x
+y2=2**(-x)
+plt.plot(x, y1)
+plt.plot(x, y2)
+plt.show()

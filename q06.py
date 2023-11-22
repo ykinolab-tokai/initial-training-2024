@@ -1,20 +1,13 @@
-class DataManager:
-    def __init__(self, x, y, z):
-    
-        self.x = x
-        self.y = y
-        self.z = z
+import numpy as np
+import matplotlib.pyplot as plt
 
-    def add_x(self,delta):
-        self.x += delta
+x = np.linspace(-5,5,100)
 
-    def add_y(self,delta):
-        self.y += delta
+def function_1(x):
+    return x**3 - 6*x**2 + 9*x - 3
 
-    def add_z(self,delta):
-        self.z += delta
-
-    def sum(self)
-        return self.x + self.y + self.z
-
-
+def function_2(x):
+    return function_1(x + 2) + 2
+plt.plot(x,function_1(x))
+plt.plot(x,function_2(x))
+plt.show()
