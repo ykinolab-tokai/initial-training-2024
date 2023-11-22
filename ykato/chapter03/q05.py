@@ -1,7 +1,7 @@
 import numpy as np
 
 a = ['θ[$^\circ$]', 'sinθ', 'cosθ', 'tanθ']
-b = np.full((361, 4), .0)
+b = np.zeros((361, 4))
 
 for i in range(361):
     x = ((2 * np.pi) / 360) * i
@@ -9,6 +9,8 @@ for i in range(361):
     b[i, 1] = np.sin(x)
     b[i, 2] = np.cos(x)
     b[i, 3] = np.tan(x)
+
+    b[1:2, 0:361]
 
 print(a)
 print(b)
