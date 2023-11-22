@@ -1,0 +1,1 @@
+'ls' is a command that can be used to list files and also to display detailed information about files. 'ls directory name' will list the files in a directory, while 'ls' alone will list the files in the current directory.
