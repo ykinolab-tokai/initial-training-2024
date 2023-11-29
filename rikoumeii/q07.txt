@@ -1,0 +1,1 @@
+R command creates one or more directories specified by the directory parameter.
