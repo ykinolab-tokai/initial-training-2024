@@ -4,22 +4,23 @@
 
 **現在検討中です．やりながら今後変わる可能性があります．**
 
-- 1 時間で [演習問題](exercises.md) を解く
-- 残りの時間で github にアップロード・レビューを行う
+- [演習問題](exercises.md) の解説を，ランダムに選ばれた人にしてもらう
+- 残りの時間は，グループに分かれ次章の [演習問題](exercises.md) を解く
+- 次週までに GitHub にアップロード・レビューを行う
 
 ## 使い方
 
-はじめての人はまず[第1章のテキスト](https://github.com/ykinolab-tokai/initial-training/blob/main/text/01_Basic_Operations.ipynb) を開き，読み進めてください
+はじめての人はまず[第1章のテキスト](https://github.com/ykinolab-tokai/initial-training/blob/main/text/01_Basic_Operations.ipynb) を開き，読み進めてください．
 
-第1章のテキストを読み，手順に従って操作していけば**以下の手順は不要**です．
+第2章以降に取り組む際は以下の手順に従って操作してください．
 
-1. このレポジトリを fork する
-2. fork したレポジトリをホームディレクトリなどに clone する
+1. GitHub 上で研究室の Remote repository `ykinolab-tokai/initial-training`を自分用の Remote repository `<user_name>/initial-training` の `main` ブランチに merge する．
+2. Remote repository の変更を Local repository に取り込む (pull する)．
    ```
-   $ git clone https://github.com/<user_name>/initial-training.git
-   $ cd initial-training
+   $ cd ~/initial-training
+   $ git checkout main
+   $ git pull origin main
    ```
-   `<user_name>` の部分は各自のGitHubユーザー名に置き換えてください
 3. 新しいブランチを作る
    ブランチ名は `<your_name>/chapter<章番号>` としてください．
    `<your_name>`の部分は，`First nameのイニシャル + Last name`をすべて小文字で書いてください．
