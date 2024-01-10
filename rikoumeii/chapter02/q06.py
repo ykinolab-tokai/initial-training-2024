@@ -15,4 +15,3 @@ class DataManager:
 
     def sum(self):
         return self.x + self.y + self.z
-
