@@ -28,7 +28,7 @@ print(f)
 print(type(f))
 print()
 
-g =any([True, True, False])
+g = any([True, True, False]) 
 print(g)
 print(type(g))
 print()
@@ -41,4 +41,8 @@ print()
 i = 2 // 0
 print(i)
 print(type(i))
+<<<<<<< HEAD
 print()
+=======
+print()
+>>>>>>> ccf53f376ddd6d72bb3b0c84b30a6c41c79db9aa
