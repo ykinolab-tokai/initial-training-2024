@@ -1,1 +1,0 @@
-The 'cd' command changes the location of the current directory (current working directory)

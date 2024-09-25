@@ -1,1 +1,0 @@
-print("こんにちは。my name is kaito nagasawa")

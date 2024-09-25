@@ -1,1 +1,0 @@
-mkdir stands for MaKe Directory and is used to create a new directory.
