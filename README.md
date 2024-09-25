@@ -5,16 +5,17 @@
 **現在検討中です．やりながら今後変わる可能性があります．**
 
 - [演習問題](exercises.md) の解説を，ランダムに選ばれた人にしてもらう
-- 残りの時間は，グループに分かれ次章の [演習問題](exercises.md) を解く
+- 時間が残れば，グループに分かれ次章の [演習問題](exercises.md) を解く
 - 次週までに GitHub にアップロード・レビューを行う
 
 ## 使い方
 
-はじめての人はまず[第1章のテキスト](https://github.com/ykinolab-tokai/initial-training/blob/main/text/01_Basic_Operations.ipynb) を開き，読み進めてください．
+はじめての人はまず[第0章のテキスト](text/00_Installing_Requirements.ipynb) に従ってPCの環境を整え，
+その後[第1章のテキスト](text/01_Basic_Operations.ipynb) を開き読み進めてください．
 
 第2章以降に取り組む際は以下の手順に従って操作してください．
 
-1. GitHub 上で研究室の Remote repository `ykinolab-tokai/initial-training`を自分用の Remote repository `<user_name>/initial-training` の `main` ブランチに merge する．
+1. GitHub 上で研究室の Remote repository `ykinolab-tokai/initial-training-YYYY` (YYYYは年度) を自分用の Remote repository `<user_name>/initial-training-YYYY` の `main` ブランチに merge する．
 2. Remote repository の変更を Local repository に取り込む (pull する)．
    ```
    $ cd ~/initial-training
