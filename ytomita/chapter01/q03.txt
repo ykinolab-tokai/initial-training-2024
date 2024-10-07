@@ -1,0 +1,3 @@
+pwdコマンドについて
+→現在の作業ディレクトリの場所をフルパス（絶対パス）表示するLinuxコマンドのこと
+　print working directory の略である
