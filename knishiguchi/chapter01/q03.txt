@@ -1,0 +1,2 @@
+pwdとは、print working directory の略であり、
+現在のディレクトリの場所をフルパスで表示するコマンドである。UNIX系で使うことができる。
