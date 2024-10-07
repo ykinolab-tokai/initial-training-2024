@@ -1,0 +1,7 @@
+「pwd」コマンド
+・「Present Working Directory」の略で、現在作業中のディレクトリ(フォルダ)を表示するコマンド
+（ Linux/UNIX）
+
+・使用例:$ pwd
+　　　　 /Users/kisogai
+  ターミナルにpwdと入力するだけで、現在の作業用ディレクトリのパスを表示できる。
