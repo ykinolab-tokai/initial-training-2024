@@ -1,0 +1,4 @@
+lsコマンドとは、現在のディレクトの中にあるファイルやディレクトリを表示するコマンド。
+list segmentsの略。
+
+https://eng-entrance.com/linux_command_ls

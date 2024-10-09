@@ -1,0 +1,4 @@
+pwdコマンドは、現在のディレクトリの場所を表示するコマンド。
+このファイル（q03.txt）の場合は、" /home/kato/initial-training-2024/ykato/chapter01 "となる。
+
+https://www.zealseeds.com/tool/version-control/git/bash/index.html#google_vignette

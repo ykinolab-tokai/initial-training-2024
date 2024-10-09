@@ -1,0 +1,4 @@
+cdコマンドは、任意のディレクトリに移動する際に使用するコマンド。
+cd <ディレクトリ>　と打つことで階層の移動ができる。
+
+https://eng-entrance.com/linux-command-cd
