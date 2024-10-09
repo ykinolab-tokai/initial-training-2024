@@ -1,2 +1,2 @@
-cat はconatenateの略で、
+cat はconcatenateの略で、
 ファイルの中身を連結して表示することが出来るコマンド
