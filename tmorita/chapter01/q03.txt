@@ -1,0 +1,2 @@
+pwdコマンドは、作業中のディレクトリの位置を絶対パスで表示するコマンド。
+pwdは「Print Working Directory」または「Present Working Directory」の略。
