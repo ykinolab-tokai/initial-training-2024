@@ -1,5 +1,5 @@
 a=[4, 8, 3, 4, 1]
-a.remove()
+a.remove(4)
 print(a)
 
 a=[4, 8, 3, 4, 1]
