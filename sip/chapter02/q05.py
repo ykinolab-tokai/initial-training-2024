@@ -1,3 +1,3 @@
-print(str.join(range(100)))
+print(" ".join(map(str,range(100))))
 
-print(str.format({":.7f"}.format(1.0/7.0)))
+print("{:.7g}".format(1.0/7.0))

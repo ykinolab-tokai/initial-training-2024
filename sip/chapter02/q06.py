@@ -5,11 +5,14 @@ class DataManager():
         self.z = z
 
     def add_x(self,delta):
-        return self.x + delta
+        self.x += delta
+        return self.x
     def add_y(self,delta):
-        return self.y + delta
+        self.y += delta
+        return self.y
     def add_z(self,delta):
-        return self.z + delta
+        self.z += delta
+        return self.z
     
     def sum(self):
         return self.x + self.y + self.z
