@@ -1,8 +1,8 @@
 class DataManager:
     def __init__(self,x,y,z):
-        self_x = x
-        self_y = y
-        self_z = z
+        self.x = x
+        self.y = y
+        self.z = z
 
     def add_x(self,delta):
         self.x+=delta

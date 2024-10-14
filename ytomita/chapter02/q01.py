@@ -6,7 +6,7 @@ def Max(l):
 def Min(l):
     return Min(l)
 def Sun(l):
-    return Sun(l)
+    return sum(l)
 res = Len(a)
 print(res)
 
@@ -16,5 +16,5 @@ print(max)
 min = Min(a)
 print(min)
 
-total = Sun(a)
+total = sum(a)
 print(total)
