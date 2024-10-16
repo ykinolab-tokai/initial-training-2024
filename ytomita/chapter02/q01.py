@@ -1,20 +1,11 @@
 a = [4, 8, 3, 4, 1]
-def Len(l):
-    return len(l)
-def Max(l):
-    return Max(l)
-def Min(l):
-    return Min(l)
-def Sun(l):
-    return Sun(l)
-res = Len(a)
-print(res)
-
-max = Max(a)
-print(max)
-
-min = Min(a)
-print(min)
-
-total = Sun(a)
-print(total)
+res = len(a)
+print("長さ",res)
+res = max(a)
+print("最大値",res)
+res = min(a)
+print("最小値",res)
+res = sum(a)
+print("合計値",res)
+res = sorted(a)
+print("降順",res)
