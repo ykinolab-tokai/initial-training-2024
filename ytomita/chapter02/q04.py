@@ -6,3 +6,4 @@ print("1の個数",len([x for x in a if x%2!=0]))
 
 a=[4, 8, 3, 4, 1]
 list = [x for x in a if x%2!=0]
+print(list)
