@@ -1,4 +1,6 @@
 import numpy as np
 
-a = np.array(20).reshape(5,4)
-print(a)
+a = np.arange(20).reshape(5,4)
+print(a[2,3])
+print(a[2])
+print(a[::2])
