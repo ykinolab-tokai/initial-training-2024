@@ -1,0 +1,1 @@
+mkdirとは、フォルダを作成するコマンドで「make directory」の略。
