@@ -1,0 +1,2 @@
+pwdコマンド
+pwd（print woeking directory）の略で、現在どのディレクトリにいるかを絶対パスで確認するためのコマンドである。
