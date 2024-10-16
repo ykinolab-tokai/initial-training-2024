@@ -1,16 +1,13 @@
 a=[4, 8, 3, 4, 1]
 
-def Len(l):
-    return len(l)
-def max_v(l):
-    return max(l)
-def min_v(l):
-    return min(l)
-def total(l):
-    return sum(l)
-def Sort(l):
-    return sorted(l)
-
-res = Sort(a)
+res = len(a)
+print(res)
+res = max(a)
+print(res)
+res = min(a)
+print(res)
+res = sum(a)
+print(res)
+res = sorted(a)
 print(res)
 
