@@ -5,6 +5,9 @@ class DataManager:
         self.y = y
         self.z = z
     
+# __init__ メソッド（コンストラクタ）は、DataManager クラスのインスタンスが生成されるときに実行される。
+# x, y, z の3つのパラメータを受け取り、self.x, self.y, self.z としてオブジェクト内に保存
+
     def add_x(self, delta):
         self.x += delta
 
@@ -13,9 +16,10 @@ class DataManager:
 
     def add_z(self, delta):
         self.z += delta
-
+# それぞれのメソッドはdeltaの値をx,y,zの属性に加算している。
     def sum(self):
         return self.x + self.y + self.z
+# x, y, z の3つの属性の合計を計算して返す。3つの属性の合計値を一度に取得する。
 
 
 data_manager = DataManager(2, 3, 5)

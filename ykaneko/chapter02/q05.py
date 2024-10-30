@@ -5,3 +5,5 @@ print(a)
 b = 1.0 / 7.0
 x = "{:.9f}".format(b)
 print(x)
+# str(i) for i in range(100) str(i)で整数iを文字列変換
+# .format() メソッドで、b の値を小数点以下9桁の浮動小数点数としてフォーマットする
