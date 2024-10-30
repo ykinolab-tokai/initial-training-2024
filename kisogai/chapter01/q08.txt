@@ -1,0 +1,8 @@
+「cat」コマンド（concatenate）
+・catコマンドはファイルを連結したり表示したりするときに使われる。
+例(cat file)→fileの中身を開くことができる。
+　(cat file1 file2)→連結を行うことができる
+　(cat file1 > file2)→file1の内容がfile2に保存される。
+　(cat file1 >> file2)→file2の末尾にfile1の内容を連結し保存する。
+
+
