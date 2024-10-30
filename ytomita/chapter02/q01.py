@@ -9,3 +9,9 @@ res = sum(a)
 print("合計値",res)
 res = sorted(a)
 print("降順",res)
+#解説
+# len:リストの長さ
+# max:リストの最大値
+# min:リストの最小値
+# sum:リストの合計値
+# sorted:リストの降順　
