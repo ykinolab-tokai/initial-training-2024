@@ -7,8 +7,8 @@ print(a1)
 
 #(2)
 print("(2)")
-a2 = [0 if a[i] % 2 == 0 else 1 for i in range(len(a))]
-a2 = a2.count(1)
+a2 = ([0 if a[i] % 2 == 0 else 1 for i in range(len(a))])
+a2 = a2.count(a2)
 print(f'奇数の数：{a2}')
 
 #(3)
