@@ -1,11 +1,8 @@
-for p in range(2, 101):
-#pを2から100までの数に設定
-    a = True #Trueは素数の可能性がある
-    for k in range(2,int(p ** 0.5)+1):
-# k を2から sqrt(p)（小数点以下切り捨て）までの範囲で繰り返す
-        if p % k == 0:
-# p が k で割り切れるときは、p は素数ではない。a = False として素数でないことを示し、break で内側のループを終了する
-            a = False
-            break
-    if a:
-        print(p)
+for p in range(2, 101):  # 2から100までの数を順に調べる
+    a = True  # 素数であると仮定しておく
+    for k in range(2, p):  # 2からp-1までの数で割り切れるか調べる
+        if p % k == 0:  # pがkで割り切れる場合
+            a = False  # 素数ではないと判定
+            break  # ループを抜ける
+    if a:  # aがTrueのままならば
+        print(p)  # pは素数なので出力する
