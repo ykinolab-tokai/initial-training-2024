@@ -1,8 +1,8 @@
-for i in range(2,100):
+for p in range(2,100):
     a=True
-    for j in range(2,i-1):
-        if i%j==0:
+    for k in range(2,p-1):
+        if p%k==0:
             a=False
             break
     if a:
-        print(i)
+        print(p)
