@@ -14,3 +14,4 @@ def somefunction():
     print(a1)
 
 somefunction()
+#[1,2,3] [1,2,3,1]
