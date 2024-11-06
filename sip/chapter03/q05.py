@@ -15,3 +15,4 @@ plt.axis('off')
 tabel = plt.table(cellText=data, colLabels=axis1, loc="center")
 
 plt.show()
+plt.savefig("q05")
