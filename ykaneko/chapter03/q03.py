@@ -13,7 +13,6 @@ c3 = np.random.uniform(-1,1,(3,3))
 #np.random.uniform(-1, 1, (3, 3)) 関数を使用
 print(c3)
 # 対角要素が2で、他の要素が0の3x3配列
-c4 = np.zeros((3,3))
-np.fill_diagonal(c4,2)
-#np.zeros で0の配列を作成しnp.fill_diagonalを使って対角要素に2を代入
+c4 = np.diag([2,2,2])
+#np.diag([2,2,2])関数を使用　指定した対角要素を持つ対角行列を作成
 print(c4)
