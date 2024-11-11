@@ -4,10 +4,10 @@
 import numpy as np
 import matplotlib.pyplot as pl
 
-for i in range(1,361,1):
+for i in range(0,361,1):
     rad = i * np.pi/180#度°→ラジアンradに変換
     sin = np.sin(i)#np.sin():sinの値を求める関数
     cos = np.cos(i)#np.cos():cosの値を求める関数
     tan = np.tan(i)#np.tan():tanの値を求める関数
 
-    print(f"θ[°]:{i:.5} sinθ:{sin:.5} cosθ:{cos:.5} tanθ:{tan}")
+    print(f"θ[°]:{i} sinθ:{sin:.5f} cosθ:{cos:.5f} tanθ:{tan:.5f}")
