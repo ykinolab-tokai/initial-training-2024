@@ -1,0 +1,2 @@
+mkdir はmake directoryの略で、
+ディレクトリを作成することが出来るコマンド
