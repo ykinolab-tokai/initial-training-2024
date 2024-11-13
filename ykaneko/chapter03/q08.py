@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 #Matplotlibを利用してグラフを描画するためにmatplotlib.pyplotモジュールをインポート
 x = np.linspace(0.01, 5, 100)
 #0.01から5までの範囲を100等分した配列を作成
-y1 = np.log(x)  #自然対数（底e）
-y2 = np.log2(x) #底が2の対数
+y1 = np.log(x)  #自然対数（底e）np.logはlogを計算する関数
+y2 = np.log2(x) #底が2の対数    
 y3 = np.log10(x)#底が10の対数
 
 plt.plot(x,y1,label='y=log(x)')
