@@ -11,7 +11,7 @@ beta = 2
 
 x = np.linspace(-5, 5, 100)
 y1 = a*x **3 + b*x **2 + c*x + d
-y2 = a*(x+alpha) **3 + b*(x+alpha) **2 + c*(x+alpha) + (d+beta)
+y2 = a*(x-alpha) **3 + b*(x-alpha) **2 + c*(x-alpha) + (d+beta)
 
 plt.plot(x, y1)
 plt.plot(x, y2)
