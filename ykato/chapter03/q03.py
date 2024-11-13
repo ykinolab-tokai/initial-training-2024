@@ -11,6 +11,7 @@ print(b)
 c = np.random.default_rng()
 print("-1から1の間のランダムな要素")
 print(c.uniform(-1, 1, (3, 3)))
+#c1 = np.random.random(3, 3) * 2 - 1
 
 d1 = np.eye(3)
 d2 = np.eye(3)
